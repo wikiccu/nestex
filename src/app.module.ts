@@ -4,7 +4,7 @@ import { AppService } from './app.service'
 import { ConfigModule } from '@nestjs/config'
 import { PrismaModule } from './prisma/prisma.module'
 import { ArticlesModule } from './articles/articles.module'
-import { UsersModule } from './users/users.module';
+import { UsersModule } from './users/users.module'
 
 @Module({
   imports: [ConfigModule.forRoot(), PrismaModule, ArticlesModule, UsersModule],
